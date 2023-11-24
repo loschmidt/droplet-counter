@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2834872183" file="\\ha-bay.ics.muni.cz\516204\Shared\0017-Loschmidt-lab\Kohutekova.Tana\Project-Folders\Project-01_SORTING-ON-CHIP\MatlabScripts\Tana_Dropllet_Counter\2023-05-09_FADS-SW-Matlab\DropLLetCounter.prj" location="\\ha-bay.ics.muni.cz\516204\Shared\0017-Loschmidt-lab\Kohutekova.Tana\Project-Folders\Project-01_SORTING-ON-CHIP\MatlabScripts\Tana_Dropllet_Counter\2023-05-09_FADS-SW-Matlab" name="DropLLetCounter" target="target.mlapps" target-name="Package App">
+    <param.appname>DropLLetCounter</param.appname>
+    <param.authnamewatermark>Tana Kohutekova</param.authnamewatermark>
+    <param.email>tanakohu@gmail.com</param.email>
+    <param.company>Loschmidt Laboratories</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>App to count droplet frequency.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\kohut\AppData\Local\Temp\tpa2f533ab_92d5_4af9_ac41_d63c005f4f2b.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>5094ddea-fb0e-4b71-b037-8bb9227cebba</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DropLLetCounter.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="\\ha-bay.ics.muni.cz\516204\Shared\0017-Loschmidt-lab\Kohutekova.Tana\Project-Folders\Project-01_SORTING-ON-CHIP\MatlabScripts\Tana_Dropllet_Counter" name="2023-05-09_FADS-SW-Matlab" optional="false">\\ha-bay.ics.muni.cz\516204\Shared\0017-Loschmidt-lab\Kohutekova.Tana\Project-Folders\Project-01_SORTING-ON-CHIP\MatlabScripts\Tana_Dropllet_Counter\2023-05-09_FADS-SW-Matlab</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
